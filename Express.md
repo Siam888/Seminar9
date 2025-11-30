@@ -5,8 +5,8 @@ Express is a web framework for Node.js that helps us create backend services and
 ## Basic setup
 
 ```js
-const express = require('express');
-const cors = require('cors');
+import express from "express";
+import cors from 'cors';
 
 const app = express();
 const PORT = 3000;
@@ -96,6 +96,5 @@ Now your API will be available at URLs like:
 
 - `http://localhost:3000/example`
 - `http://localhost:3000/example/123`
-
 
 ## Extra - Router
